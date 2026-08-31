@@ -93,17 +93,32 @@ Cisco UCS (AI Pods), Splunk Enterprise/SIEM, Meraki (MV, MT, MR, MS), Catalyst (
 SECTION 3: GO TO MARKET STRATEGY AND EXECUTION PLAN
 ================================================================================
 
-3.1 — GTM Strategy & Pilot Framework
+3.1 — Go-To-Market (GTM) Strategy & Commercial Model
 
-Partner-Led Co-Sell Motion:
-KIW acts as technology developer; Cisco MSPs serve as distribution.
+TellMAX.AI operates a 100% Partner-led co-sell distribution model designed to accelerate Cisco infrastructure sales, drive high-margin MSP service expansion, and leverage the global Cisco field organization.
 
-Pilot Program Strategy & Execution:
-1. Active Live Production Customer (Hospitality): Cap Vermell Grand Hotel (5-star luxury resort in Mallorca) — currently active and running in production as our primary proof point for HVAC and IT/OT automation.
-2. Two Target Beta Pilots Ready to Launch (Q4 2026):
-   - Manufacturing Pilot: Industrial OT/IT SCADA downtime prevention ($22,000/min cost).
-   - Healthcare Pilot: Hospital biomedical & IT wireless telemetry resilience.
-3. Planned Strategic Conversations: Initial exploratory discussions scheduled for Q4 with enterprise prospects (Cosentino in Manufacturing and AniCura in Healthcare).
+1. Target Customer Profile (Ideal Customer Profile - ICP):
+- Target Segment: Mid-Market and Enterprise organizations managing multi-site critical infrastructure (5 to 500+ locations) across Manufacturing, Healthcare, Financial Services, and Luxury Hospitality.
+- Infrastructure Footprint: Customers with existing or planned Cisco networking deployments (Catalyst 9000 switches, Meraki Wi-Fi/sensors), Splunk observability instances, and strict operational reliability SLAs.
+- Customer Pain Point: High MTTR (45-90 minutes), acute L1/L2 engineering talent shortages, alert fatigue from thousands of daily events, and inability to send operational data to public cloud AI providers due to sovereignty mandates.
+
+2. Distribution & Co-Sell Motion (Partner-Led Ecosystem):
+- Developer & ISV Role (KIW Intercloud): KIW functions as the core technology developer, maintaining the TellMAX.AI agentic orchestration engine, pre-built Cisco/Splunk MCP connectors, and sovereign LLM packaging.
+- Primary Channel (Cisco MSPs & MSSPs): Cisco Managed Service Partners bundle TellMAX.AI as an AI-driven operational overlay on top of their existing managed service contracts. This expands partner contract ARR by 25% to 40% while reducing their internal L1/L2 triage operating costs by up to 85%.
+- Cisco Field Co-Sell Alignment (PAMs & AEs): We align directly with Cisco Partner Account Managers (PAMs) and Account Executives (AEs) during infrastructure refresh and Splunk renewal cycles. TellMAX.AI is sold as an adoption acceleration layer that guarantees customers run the advanced Cisco features they purchase, directly qualifying partners for Cisco 360 Partner Program lifecycle rewards.
+
+3. Monetization & Business Model:
+- Annual SaaS Overlay Licensing: Priced on a per-managed-site or per-managed-device annual subscription tier for the MAX agentic execution engine.
+- High-Margin Cisco Hardware Drag: For sovereign enterprise customers requiring zero cloud leakage, TellMAX.AI drives high-margin Cisco hardware drag, requiring Cisco UCS C-Series AI Pod nodes ($80K to $150K per node) for on-premise inferencing.
+- Software Drag: Unlocks enterprise Splunk SIEM/ITSI license upgrades, ThousandEyes agent licensing, and Meraki Advanced Enterprise software tiers.
+
+4. Phased Rollout & Pilot Commercial Execution:
+- Anchor Production Proof Point (Active): Cap Vermell Grand Hotel (5-star luxury resort in Mallorca) is fully active in live production, proving closed-loop HVAC, BMS, and Meraki network automation in a real-world multi-site hospitality environment.
+- Q4 2026 Target Beta Pilots (Ready to Launch): Expanding the co-sell motion with 2 targeted enterprise pilots in high-stakes sectors:
+  a) Manufacturing Pilot: Industrial OT/IT SCADA downtime prevention ($22,000/min cost).
+  b) Healthcare Pilot: Hospital biomedical & IT wireless telemetry resilience.
+  (With exploratory Q4 strategic co-sell conversations scheduled with Cosentino in Manufacturing and AniCura in Healthcare).
+- Scale Distribution (2027): General Availability (GA v1.0), listing on Cisco DevNet Exchange, and certified "TellMAX for Splunk" App on Splunkbase to reach 15,000+ Cisco MSP managed contracts globally across EMEAR and Americas.
 
 
 3.2 — Cisco Tech Alignment & Vertical Architecture Drag
