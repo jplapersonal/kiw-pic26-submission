@@ -329,6 +329,26 @@ const apisV2 = `
 </div>
 `;
 
+const cloudInfraV2 = `
+<div class="space-y-4 font-sans text-gray-200">
+    <p>TellMAX.AI follows a two-phase architecture evolution that balances immediate cloud scalability with long-term enterprise data sovereignty:</p>
+
+    <p><strong>Phase 1 — Active Cloud-Hybrid Scalability & Instant Onboarding:</strong><br>
+    - Cloud Microservices Stack: Currently deployed as a cloud-native microservices architecture on secure high-availability infrastructure (Splunk Cloud HEC, Meraki Dashboard API v1, Webex Bots API, WhatsApp Business API, and Redis Streams event queue).<br>
+    - Multi-Tenant Scale: Enables Cisco MSP partners to onboard new customer sites in minutes without requiring upfront hardware lead times or local server installation.<br>
+    - Horizontal Elasticity: Auto-scaling Celery worker nodes process peak telemetry streams (50,000+ events/sec) and execute real-time L0/L1 incident remediation across multi-site portfolios.</p>
+
+    <p><strong>Phase 2 — Sovereign On-Premise Deployment (Cisco UCS AI Pod Architecture):</strong><br>
+    Once MAX reaches 100% operational status in Cloud-Hybrid mode, enterprise customers with strict regulatory mandates (EU DORA, HIPAA, NIS2) or air-gapped security policies transition to Phase 2: a 100% Sovereign On-Premise deployment package installed directly inside the customer's datacenter.</p>
+
+    <p><strong>On-Premise Infrastructure & Hardware Details:</strong><br>
+    - Compute Nodes: Cisco UCS C885A M8 / C240 M8 enterprise rack servers equipped with dual NVIDIA H100 or L40S Tensor Core GPUs for local, low-latency LLM inference (quantized Llama 3 70B/8B and Mistral).<br>
+    - Network Interconnect Fabric: Cisco Nexus 9300 / 9500 switches providing ultra-low latency (&lt;1ms) RoCEv2 (RDMA over Converged Ethernet) network fabric between inferencing nodes and storage arrays.<br>
+    - Local Vector RAG Subsystem: On-premise vector database (ChromaDB / Milvus) running on enterprise NVMe storage. Ingests network topology diagrams, equipment manuals, and SOP playbooks locally, ensuring zero data egress outside the customer's security perimeter.<br>
+    - On-Premise Observability Core: Local Splunk Enterprise and Heavy Forwarder instances running directly on Cisco UCS compute nodes, keeping all log telemetry, IP address structures, and user data completely air-gapped.</p>
+</div>
+`;
+
 const ciscoRelevanceV2 = `
 <div class="space-y-4 font-sans text-gray-200">
     <p><strong>1. Tool Sprawl Reduction:</strong><br>
@@ -961,6 +981,8 @@ const ciscoRelevanceV2 = `
 
             const ciscoSec = sectionsV2.find(s => s.id === 'cisco-relevance');
             if (ciscoSec) ciscoSec.content = ciscoRelevanceV2;
+            const diagramsSec = sectionsV2.find(s => s.id === "diagrams");
+            if (diagramsSec) diagramsSec.content = cloudInfraV2;
             const techCompSec = sectionsV2.find(s => s.id === "technical-components");
             if (techCompSec) techCompSec.content = techComponentsV2;
             const apisSec = sectionsV2.find(s => s.id === "apis");
