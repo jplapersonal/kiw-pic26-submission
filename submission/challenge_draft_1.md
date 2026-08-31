@@ -83,7 +83,7 @@ TellMAX.AI directly embodies Cisco's primary FY2026 strategic directives: "reduc
 Cisco's stack is immensely powerful but complex to operate. Most enterprise customers underutilize what they have bought. MAX closes this human expertise gap, ensuring customers actually run the Cisco features they own — which in turn drives higher consumption and expansion sales. This directly aligns with the new Cisco 360 Partner Program, which rewards partners for driving customer adoption and lifecycle outcomes.
 
 3. Hardware Drag & High-Margin Software Sales:
-MAX justifies the deployment of high-value Cisco UCS AI Pod compute hardware ($80K-$150K per node) plus Splunk Enterprise / SIEM licensing, increasing MSP contract values by 25% to 40% (Source: KIW Intercloud Partner Pilot Benchmark).
+MAX justifies the deployment of high-value Cisco UCS AI Pod compute hardware servers plus Splunk Enterprise / SIEM licensing, increasing MSP contract values by 25% to 40% (Source: KIW Intercloud Partner Pilot Benchmark).
 
 4. Financial Alignment (Cisco Q4 FY2026 Earnings):
 Faster incident resolution builds operational trust, and trust drives subscription renewals. Cisco's Q4 FY2026 financial results (Source: Cisco Systems Q4 FY2026 Earnings Call Transcript, August 12, 2026) strongly validate our sovereign model:
@@ -114,7 +114,7 @@ TellMAX.AI operates a 100% Partner-led co-sell distribution model designed to ac
 
 3. Monetization & Business Model:
 - Annual SaaS Overlay Licensing: Priced on a per-managed-site or per-managed-device annual subscription tier for the MAX agentic execution engine.
-- High-Margin Cisco Hardware Drag: For sovereign enterprise customers requiring zero cloud leakage, TellMAX.AI drives high-margin Cisco hardware drag, requiring Cisco UCS C-Series AI Pod nodes ($80K to $150K per node) for on-premise inferencing.
+- High-Margin Cisco Hardware Drag: For sovereign enterprise customers requiring zero cloud leakage, TellMAX.AI drives high-margin Cisco hardware drag, requiring enterprise Cisco UCS C-Series AI Pod servers for local on-premise LLM inferencing.
 - Software Drag: Unlocks enterprise Splunk SIEM/ITSI license upgrades, ThousandEyes agent licensing, and Meraki Advanced Enterprise software tiers.
 
 4. Phased Rollout & Pilot Commercial Execution:
@@ -142,7 +142,7 @@ TellMAX.AI integrates deeply across the entire Cisco portfolio, binding compute,
 
 3. Finance & Banking Vertical ($5.6 Million / Hour Downtime & EU DORA Compliance):
 - Industry Economic Impact: Financial transaction processing downtime averages $5.6 Million per hour ($93,000/min). EU DORA mandates strict 99.999% ICT availability with non-compliance penalties up to 2% of annual global turnover.
-- Cisco Architecture Stack: Splunk Enterprise Security (Real-time Transaction Audit Trails) + Catalyst Center Zero Trust Microsegmentation + ThousandEyes WAN Path Observability + Cisco UCS AI Pods (Sovereign On-Prem LLM Compute Nodes at $80K-$150K per node).
+- Cisco Architecture Stack: Splunk Enterprise Security (Real-time Transaction Audit Trails) + Catalyst Center Zero Trust Microsegmentation + ThousandEyes WAN Path Observability + Cisco UCS AI Pods (Sovereign On-Prem LLM Compute Servers).
 - Cisco Commercial Benefit: Unlocks high-value Cisco UCS AI Pod compute sales and ThousandEyes enterprise agent licensing.
 
 Cisco Products Enhanced & Required:
