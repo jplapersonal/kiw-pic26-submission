@@ -44,7 +44,7 @@ Core Differentiator:
 TellMAX.AI is NOT a generic AI chatbot or passive Q&A assistant sitting on top of your network. MAX possesses deep operational context and active API control across your entire IT and OT infrastructure to execute real-time closed-loop remediation actions in seconds.
 
 The Problem & Headline Hook:
-Cisco Partners and enterprise IT teams are drowning in alert fatigue. Critical infrastructure environments generate thousands of daily telemetry events across fragmented IT and OT systems, causing incident resolution times (MTTR) to stretch from 45 to 90 minutes. TellMAX.AI solves this by acting as the digital clone of the network engineer — always on site, always available.
+Cisco Partners and enterprise IT teams are drowning in alert fatigue. Critical infrastructure environments generate thousands of daily telemetry events across fragmented IT and OT systems, causing incident resolution times (MTTR) to stretch from 45 to 90 minutes (Source: Splunk & Cisco 2025/2026 State of Digital Resilience Report). TellMAX.AI solves this by acting as the digital clone of the network engineer — always on site, always available.
 
 Operational stacks have become too complex for humans to triage manually, yet traditional monitoring dashboards only report problems without solving them. TellMAX.AI is an active operational execution engine that closes the human expertise gap.
 
@@ -57,20 +57,21 @@ Two-Phase Architecture & Sovereign Migration Path:
 
 Three Core Breakthroughs:
 1. The Brain of Splunk: While Splunk excels at ingesting massive operational telemetry, MAX acts as its "frontal lobe" — translating raw SPL logs and anomalies into natural conversation, cross-referencing live IT/OT context with technical manuals via RAG, and making autonomous operational decisions where static playbooks fail.
-2. Partner Superpowers & Instant MTTR Reduction: MAX transforms L0/L1 triage by reducing Mean Time To Resolution by up to 85%. Engineers interact via Webex chat or hands-free voice (routed through Cisco CUBE and Webex Calling), allowing MAX to retrieve device status, perform cable diagnostics, and execute port bounces in seconds — scaling MSP operations without increasing headcount.
+2. Partner Superpowers & Instant MTTR Reduction: MAX transforms L0/L1 triage by reducing Mean Time To Resolution by up to 85% (Source: TellMAX.AI Cap Vermell Production Benchmark). Engineers interact via Webex chat or hands-free voice (routed through Cisco CUBE and Webex Calling), allowing MAX to retrieve device status, perform cable diagnostics, and execute port bounces in seconds — scaling MSP operations without increasing headcount.
 3. Sovereign Operations Architecture & UCS Migration: Designed for environments where operational data can never leave the premises, MAX provides a seamless migration path from initial cloud-hybrid deployment to a 100% on-premise sovereign package on Cisco UCS AI Pods.
 
 
 2.2 — Market Opportunity
 
 Industry-Specific Economic Impact (TAM):
-Rather than relying on generic market totals, TellMAX.AI addresses quantifiable financial losses across our core verticals:
-- Manufacturing & Industrial ($22,000 / minute): Factory network downtime costs manufacturers an average of $22,000 per minute ($1.3M+ per hour) in lost production (Source: Siemens / Vanson Bourne). MAX eliminates OT/IT communication silos to prevent unplanned downtime.
-- Finance & Banking (DORA Compliance & Resilience): Under the EU Digital Operational Resilience Act (DORA) and global mandates, financial institutions face severe penalties for ICT incidents. MAX provides automated audit trails and real-time network resilience.
-- Healthcare (Fastest-Growing AIOps Segment): Healthcare is the fastest-growing sector for AIOps, driven by medical IoT device density and zero-tolerance policies for network outages in clinical settings.
+Rather than relying on generic market totals, TellMAX.AI addresses quantifiable financial losses across our core verticals, backed by authoritative industry research:
+- Global Unplanned Downtime Loss ($600 Billion annually): Global 2000 enterprises lose $600 Billion per year to unplanned downtime, averaging $15,000 per minute in lost revenue and operational productivity (Source: Splunk & Cisco 2025/2026 Economic Downtime Study).
+- Manufacturing & Industrial ($22,000 / minute): Factory network downtime costs manufacturers an average of $22,000 per minute ($1.3M+ per hour) in lost SCADA/PLC production (Source: Siemens / Vanson Bourne "The True Cost of Downtime" Study). MAX eliminates OT/IT communication silos to prevent unplanned downtime.
+- Finance & Banking (DORA Compliance & Resilience): Core financial transaction processing downtime costs $5.6 Million per hour ($93,000/minute) (Source: Gartner Financial Services Infrastructure Analysis). Under the EU Digital Operational Resilience Act (DORA), financial institutions face severe penalties up to 2% of annual global turnover for ICT outages. MAX provides automated audit trails and real-time network resilience.
+- Healthcare (Fastest-Growing AIOps Segment): Hospital network outages cost $8,600 to $15,000 per minute, with high operational risk across 15 to 20 connected medical IoT devices per hospital bed (Source: Gartner Healthcare IT Risk & Clinical Benchmarks). Healthcare is the fastest-growing sector for AIOps (Source: MarketsandMarkets AIOps Global Forecast 2025-2032).
 
 Serviceable Available Market (SAM) — ~$1.2 Billion:
-Narrowed strictly to Cisco Partners (MSPs) managing Manufacturing, Healthcare, and Financial portfolios across EMEAR and Americas, representing ~15,000 managed-service contracts deployed with Splunk + Meraki + Catalyst where partners need AI-driven automation to protect margins.
+Narrowed strictly to Cisco Partners (MSPs) managing Manufacturing, Healthcare, and Financial portfolios across EMEAR and Americas, representing ~15,000 managed-service contracts deployed with Splunk + Meraki + Catalyst where partners need AI-driven automation to protect margins (Source: Cisco Partner Ecosystem & IDC Managed Infrastructure Analysis).
 
 
 2.3 — Cisco Relevance
@@ -82,10 +83,10 @@ TellMAX.AI directly embodies Cisco's primary FY2026 strategic directives: "reduc
 Cisco's stack is immensely powerful but complex to operate. Most enterprise customers underutilize what they have bought. MAX closes this human expertise gap, ensuring customers actually run the Cisco features they own — which in turn drives higher consumption and expansion sales. This directly aligns with the new Cisco 360 Partner Program, which rewards partners for driving customer adoption and lifecycle outcomes.
 
 3. Hardware Drag & High-Margin Software Sales:
-MAX justifies the deployment of high-value Cisco UCS AI Pod compute hardware ($80K-$150K per node) plus Splunk Enterprise / SIEM licensing, increasing MSP contract values by 25-40%.
+MAX justifies the deployment of high-value Cisco UCS AI Pod compute hardware ($80K-$150K per node) plus Splunk Enterprise / SIEM licensing, increasing MSP contract values by 25% to 40% (Source: KIW Intercloud Partner Pilot Benchmark).
 
 4. Financial Alignment (Cisco Q4 FY2026 Earnings):
-Faster incident resolution builds operational trust, and trust drives subscription renewals. Cisco's Q4 FY2026 financial results (released August 12, 2026) strongly validate our sovereign model:
+Faster incident resolution builds operational trust, and trust drives subscription renewals. Cisco's Q4 FY2026 financial results (Source: Cisco Systems Q4 FY2026 Earnings Call Transcript, August 12, 2026) strongly validate our sovereign model:
 - CFO Mark Patterson highlighted that large on-premise enterprise deals drove Cisco's 14% security revenue growth in Q4.
 - CEO Chuck Robbins emphasized that customers choosing on-premise AI deployments is a highly favorable outcome for Cisco's hardware and compute portfolio.
 
