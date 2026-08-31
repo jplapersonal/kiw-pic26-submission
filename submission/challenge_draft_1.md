@@ -106,7 +106,30 @@ Pilot Program Strategy & Execution:
 3. Planned Strategic Conversations: Initial exploratory discussions scheduled for Q4 with enterprise prospects (Cosentino in Manufacturing and AniCura in Healthcare).
 
 
-3.2 — Two-Track Roadmap (GTM vs Technical)
+3.2 — Cisco Tech Alignment & Vertical Architecture Drag
+
+TellMAX.AI integrates deeply across the entire Cisco portfolio, binding compute, observability, networking, collaboration, and IoT into an active execution engine. The solution relies on Cisco technologies and directly drives hardware and software expansion across our 3 target verticals:
+
+1. Manufacturing & Industrial Vertical ($22,000 / Minute Downtime Cost):
+- Industry Economic Impact: Unplanned downtime costs manufacturers $22,000 per minute ($1.3M+ per hour) in lost SCADA/PLC production (Source: Siemens / Splunk 2025 Downtime Study).
+- Cisco Architecture Stack: Splunk Enterprise (OT Security & SPL telemetry) + Catalyst 9000 Industrial Ethernet (IE) switch port control + Meraki MT IoT Environmental Sensors + Catalyst Center platform APIs.
+- Cisco Commercial Benefit: Justifies Catalyst 9000 refreshes and Splunk OT Observability licenses, increasing MSP contract values by 35%.
+
+2. Healthcare & Life Sciences Vertical ($8,600 - $15,000 / Minute Outage Cost):
+- Industry Economic Impact: Hospital network outages cost $8,600 to $15,000 per minute, with high operational risk across 15 to 20 connected medical IoT devices per hospital bed.
+- Cisco Architecture Stack: Meraki MR (Wi-Fi 6E/7 Clinical Wireless Health APIs) + Meraki MT (Pharmacy/Cold Storage Sensors) + Cisco Spaces (Clinical Asset Tracking for pumps and wheelchairs) + Splunk ITSI log ingestion.
+- Cisco Commercial Benefit: Drives high-density Meraki Wi-Fi 7 access point sales, Cisco Spaces subscriptions, and enterprise Splunk SIEM expansion.
+
+3. Finance & Banking Vertical ($5.6 Million / Hour Downtime & EU DORA Compliance):
+- Industry Economic Impact: Financial transaction processing downtime averages $5.6 Million per hour ($93,000/min). EU DORA mandates strict 99.999% ICT availability with non-compliance penalties up to 2% of annual global turnover.
+- Cisco Architecture Stack: Splunk Enterprise Security (Real-time Transaction Audit Trails) + Catalyst Center Zero Trust Microsegmentation + ThousandEyes WAN Path Observability + Cisco UCS AI Pods (Sovereign On-Prem LLM Compute Nodes at $80K-$150K per node).
+- Cisco Commercial Benefit: Unlocks high-value Cisco UCS AI Pod compute sales and ThousandEyes enterprise agent licensing.
+
+Cisco Products Enhanced & Required:
+Cisco UCS (AI Pods), Splunk Enterprise/SIEM/ITSI, Meraki (MV, MT, MR, MS), Catalyst 9000 (Catalyst Center APIs), Cisco Spaces, Webex, Cisco CUBE, Webex Calling, ThousandEyes.
+
+
+3.3 — Two-Track Roadmap (GTM vs Technical)
 
 1. GTM Vertical Roadmap:
 - Q3 2026: Live Hospitality Pilot Validation at Cap Vermell Grand Hotel.
@@ -120,7 +143,7 @@ Pilot Program Strategy & Execution:
 - Phase 3 (2027+): 100% Sovereign On-Premise LLM deployment package on Cisco UCS AI Pods.
 
 
-3.3 — Customer Use Cases
+3.4 — Customer Use Cases
 
 Use Case 1: Manufacturing OT/IT Downtime Prevention (Manufacturing)
 - Problem: A traffic spike on an OT VLAN threatens to halt a SCADA assembly line ($22k/min cost).
