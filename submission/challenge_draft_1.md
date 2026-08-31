@@ -1,4 +1,4 @@
-# TellMAX.AI — Cisco Partner Innovation Challenge 2026
+# TellMAX.AI  -  Cisco Partner Innovation Challenge 2026
 ## Official Form Submission Copy (Pure Text Format)
 
 ================================================================================
@@ -6,7 +6,7 @@ SECTION 1: TEAM DETAILS AND INNOVATION INFORMATION
 ================================================================================
 
 Team Leader First and Last Name:
-José Plá
+Jose Pla
 
 Team Leader Business Email:
 jpla@kiw.one
@@ -15,7 +15,7 @@ Partner Company Name:
 KIW Intercloud S.L.
 
 Name of Innovation:
-TellMAX.AI — Sovereign Operations Assistant
+TellMAX.AI  -  Sovereign Operations Assistant
 
 Geography:
 EMEAR
@@ -27,9 +27,9 @@ BE GEO ID:
 588355
 
 Category Selections:
-- Cisco & Splunk Powering Digital Resilience ($200K Prize): YES — Splunk serves as the central nervous system of MAX. Our core narrative is "Splunk + Meraki + Catalyst + AI = Observable Digital Resilience".
-- Partnering for Purpose Category: Sustainability / Environmental — Autonomous HVAC and energy optimization achieved by cross-referencing Cisco Spaces occupancy data with BMS.
-- One Cisco Theme: AI — Sovereign AI agent unifying Compute (UCS), Security and Observability (Splunk), Networking (Meraki/Catalyst), and Collaboration (Webex).
+- Cisco & Splunk Powering Digital Resilience ($200K Prize): YES  -  Splunk serves as the central nervous system of MAX. Our core narrative is "Splunk + Meraki + Catalyst + AI = Observable Digital Resilience".
+- Partnering for Purpose Category: Sustainability / Environmental  -  Autonomous HVAC and energy optimization achieved by cross-referencing Cisco Spaces occupancy data with BMS.
+- One Cisco Theme: AI  -  Sovereign AI agent unifying Compute (UCS), Security and Observability (Splunk), Networking (Meraki/Catalyst), and Collaboration (Webex).
 - Top 2 Technologies: 1) Splunk / Observability, 2) Networking (Meraki / Catalyst / DNA Center)
 - Top 2 Industries: 1) Manufacturing & Industrial, 2) Healthcare (backed by Financial Services in market opportunity and Luxury Hospitality as a live production proof point).
 
@@ -38,30 +38,30 @@ Category Selections:
 SECTION 2: EXECUTIVE SUMMARY
 ================================================================================
 
-2.1 — Summarize the innovation in plain language
+2.1  -  Summarize the innovation in plain language
 
 Core Differentiator:
 TellMAX.AI is NOT a generic AI chatbot or passive Q&A assistant sitting on top of your network. MAX possesses deep operational context and active API control across your entire IT and OT infrastructure to execute real-time closed-loop remediation actions in seconds.
 
 The Problem & Headline Hook:
-Cisco Partners and enterprise IT teams are drowning in alert fatigue. Critical infrastructure environments generate thousands of daily telemetry events across fragmented IT and OT systems, causing incident resolution times (MTTR) to stretch from 45 to 90 minutes (Source: Splunk & Cisco 2025/2026 State of Digital Resilience Report). TellMAX.AI solves this by acting as the digital clone of the network engineer — always on site, always available.
+Cisco Partners and enterprise IT teams are drowning in alert fatigue. Critical infrastructure environments generate thousands of daily telemetry events across fragmented IT and OT systems, causing incident resolution times (MTTR) to stretch from 45 to 90 minutes (Source: Splunk & Cisco 2025/2026 State of Digital Resilience Report). TellMAX.AI solves this by acting as the digital clone of the network engineer  -  always on site, always available.
 
 Operational stacks have become too complex for humans to triage manually, yet traditional monitoring dashboards only report problems without solving them. TellMAX.AI is an active operational execution engine that closes the human expertise gap.
 
 What is it & Who is it for?
-TellMAX.AI is a Sovereign Operations Assistant for Cisco Partners (MSPs/MSSPs) managing multi-site environments in high-stakes verticals: Manufacturing, Healthcare, and Finance — backed by an active, production-tested live pilot at Cap Vermell Grand Hotel (Luxury Hospitality) and 2 new beta pilots ready to launch in Manufacturing and Healthcare. Operators simply "tell MAX" what they need via Webex, WhatsApp, Telegram, or hands-free voice.
+TellMAX.AI is a Sovereign Operations Assistant for Cisco Partners (MSPs/MSSPs) managing multi-site environments in high-stakes verticals: Manufacturing, Healthcare, and Finance  -  backed by an active, production-tested live pilot at Cap Vermell Grand Hotel (Luxury Hospitality) and 2 new beta pilots ready to launch in Manufacturing and Healthcare. Operators simply "tell MAX" what they need via Webex, WhatsApp, Telegram, or hands-free voice.
 
 Two-Phase Architecture & Sovereign Migration Path:
 - Phase 1 (Current Active Cloud Hybrid): Currently deployed and running in production via a cloud-hybrid model (Splunk Cloud HEC, Meraki Dashboard API, Webex Bots API, WhatsApp/Telegram gateways). This provides immediate time-to-value, zero friction, and instant L0/L1 incident resolution without requiring upfront hardware installations.
 - Phase 2 (Sovereign On-Premise UCS Migration): Once MAX is fully operational, enterprise customers with strict privacy, regulatory, or sovereignty mandates transition to Phase 2: migrating the entire LLM inference engine, vector RAG database, and Splunk instance onto local Cisco UCS AI Pods (C-Series servers with NVIDIA GPUs) inside the customer's datacenter for 100% local data privacy and zero cloud leakage.
 
 Three Core Breakthroughs:
-1. The Brain of Splunk: While Splunk excels at ingesting massive operational telemetry, MAX acts as its "frontal lobe" — translating raw SPL logs and anomalies into natural conversation, cross-referencing live IT/OT context with technical manuals via RAG, and making autonomous operational decisions where static playbooks fail.
-2. Partner Superpowers & Instant MTTR Reduction: MAX transforms L0/L1 triage by reducing Mean Time To Resolution by up to 85% (Source: TellMAX.AI Cap Vermell Production Benchmark). Engineers interact via Webex chat or hands-free voice (routed through Cisco CUBE and Webex Calling), allowing MAX to retrieve device status, perform cable diagnostics, and execute port bounces in seconds — scaling MSP operations without increasing headcount.
+1. The Brain of Splunk: While Splunk excels at ingesting massive operational telemetry, MAX acts as its "frontal lobe"  -  translating raw SPL logs and anomalies into natural conversation, cross-referencing live IT/OT context with technical manuals via RAG, and making autonomous operational decisions where static playbooks fail.
+2. Partner Superpowers & Instant MTTR Reduction: MAX transforms L0/L1 triage by reducing Mean Time To Resolution by up to 85% (Source: TellMAX.AI Cap Vermell Production Benchmark). Engineers interact via Webex chat or hands-free voice (routed through Cisco CUBE and Webex Calling), allowing MAX to retrieve device status, perform cable diagnostics, and execute port bounces in seconds  -  scaling MSP operations without increasing headcount.
 3. Sovereign Operations Architecture & UCS Migration: Designed for environments where operational data can never leave the premises, MAX provides a seamless migration path from initial cloud-hybrid deployment to a 100% on-premise sovereign package on Cisco UCS AI Pods.
 
 
-2.2 — Market Opportunity
+2.2  -  Market Opportunity
 
 Industry-Specific Economic Impact (TAM):
 Rather than relying on generic market totals, TellMAX.AI addresses quantifiable financial losses across our core verticals, backed by authoritative industry research:
@@ -70,17 +70,17 @@ Rather than relying on generic market totals, TellMAX.AI addresses quantifiable 
 - Finance & Banking (DORA Compliance & Resilience): Core financial transaction processing downtime costs $5.6 Million per hour ($93,000/minute) (Source: Gartner Financial Services Infrastructure Analysis). Under the EU Digital Operational Resilience Act (DORA), financial institutions face severe penalties up to 2% of annual global turnover for ICT outages. MAX provides automated audit trails and real-time network resilience.
 - Healthcare (Fastest-Growing AIOps Segment): Hospital network outages cost $8,600 to $15,000 per minute, with high operational risk across 15 to 20 connected medical IoT devices per hospital bed (Source: Gartner Healthcare IT Risk & Clinical Benchmarks). Healthcare is the fastest-growing sector for AIOps (Source: MarketsandMarkets AIOps Global Forecast 2025-2032).
 
-Serviceable Available Market (SAM) — ~$1.2 Billion:
+Serviceable Available Market (SAM)  -  ~$1.2 Billion:
 Narrowed strictly to Cisco Partners (MSPs) managing Manufacturing, Healthcare, and Financial portfolios across EMEAR and Americas, representing ~15,000 managed-service contracts deployed with Splunk + Meraki + Catalyst where partners need AI-driven automation to protect margins (Source: Cisco Partner Ecosystem & IDC Managed Infrastructure Analysis).
 
 
-2.3 — Cisco Relevance
+2.3  -  Cisco Relevance
 
 1. Tool Sprawl Reduction:
 TellMAX.AI directly embodies Cisco's primary FY2026 strategic directives: "reduce tool sprawl" and deliver "resilient, observable outcomes customers can actually run their business on." By unifying Splunk, Meraki, Cisco Spaces, Webex, Catalyst Center, and Cisco CUBE into a single conversational execution interface, MAX is tool sprawl reduction in action.
 
 2. Closing the Human Expertise Gap (Cisco 360 Alignment):
-Cisco's stack is immensely powerful but complex to operate. Most enterprise customers underutilize what they have bought. MAX closes this human expertise gap, ensuring customers actually run the Cisco features they own — which in turn drives higher consumption and expansion sales. This directly aligns with the new Cisco 360 Partner Program, which rewards partners for driving customer adoption and lifecycle outcomes.
+Cisco's stack is immensely powerful but complex to operate. Most enterprise customers underutilize what they have bought. MAX closes this human expertise gap, ensuring customers actually run the Cisco features they own  -  which in turn drives higher consumption and expansion sales. This directly aligns with the new Cisco 360 Partner Program, which rewards partners for driving customer adoption and lifecycle outcomes.
 
 3. Hardware Drag & High-Margin Software Sales:
 MAX justifies the deployment of high-value Cisco UCS AI Pod compute hardware servers plus Splunk Enterprise / SIEM licensing, increasing MSP contract values by 25% to 40% (Source: KIW Intercloud Partner Pilot Benchmark).
@@ -98,7 +98,7 @@ Cisco UCS (AI Pods), Splunk Enterprise/SIEM, Meraki (MV, MT, MR, MS), Catalyst (
 SECTION 3: GO TO MARKET STRATEGY AND EXECUTION PLAN
 ================================================================================
 
-3.1 — Go-To-Market (GTM) Strategy & Commercial Model
+3.1  -  Go-To-Market (GTM) Strategy & Commercial Model
 
 TellMAX.AI operates a 100% Partner-led co-sell distribution model designed to accelerate Cisco infrastructure sales, drive high-margin MSP service expansion, and leverage the global Cisco field organization.
 
@@ -126,7 +126,7 @@ TellMAX.AI operates a 100% Partner-led co-sell distribution model designed to ac
 - Scale Distribution (2027): General Availability (GA v1.0), listing on Cisco DevNet Exchange, and certified "TellMAX for Splunk" App on Splunkbase to reach 15,000+ Cisco MSP managed contracts globally across EMEAR and Americas.
 
 
-3.2 — Cisco Tech Alignment & Vertical Architecture Drag
+3.2  -  Cisco Tech Alignment & Vertical Architecture Drag
 
 TellMAX.AI integrates deeply across the entire Cisco portfolio, binding compute, observability, networking, collaboration, and IoT into an active execution engine. The solution relies on Cisco technologies and directly drives hardware and software expansion across our 3 target verticals:
 
@@ -149,7 +149,7 @@ Cisco Products Enhanced & Required:
 Cisco UCS (AI Pods), Splunk Enterprise/SIEM/ITSI, Meraki (MV, MT, MR, MS), Catalyst 9000 (Catalyst Center APIs), Cisco Spaces, Webex, Cisco CUBE, Webex Calling, ThousandEyes.
 
 
-3.3 — Two-Track Roadmap (GTM vs Technical Deployment)
+3.3  -  Two-Track Roadmap (GTM vs Technical Deployment)
 
 1. GTM Vertical Roadmap:
 - Q3 2026: Live Hospitality Pilot Validation at Cap Vermell Grand Hotel (Cloud Hybrid Phase 1).
@@ -163,7 +163,7 @@ Cisco UCS (AI Pods), Splunk Enterprise/SIEM/ITSI, Meraki (MV, MT, MR, MS), Catal
 - Phase 3 (2027+ Sovereign On-Prem Package): Complete on-premise migration package deploying fine-tuned LLMs, vector RAG databases, and Splunk Enterprise onto local Cisco UCS AI Pods in the customer's datacenter for 100% data privacy.
 
 
-3.4 — Customer Use Cases
+3.4  -  Customer Use Cases
 
 Use Case 1: Manufacturing OT/IT Downtime Prevention (Manufacturing)
 - User Profile: Plant operations and IT network infrastructure teams managing combined SCADA/PLC production lines and enterprise networks on a unified Cisco backbone.
@@ -178,7 +178,7 @@ Use Case 2: Zero-Downtime Medical Telemetry Resilience (Healthcare)
 - Impact: Zero clinical telemetry interruption; proactive radio channel optimization executed in <5 seconds without human intervention.
 
 Use Case 3: Frictionless Operations & ToIP Voice AI (Cap Vermell Live Pilot)
-- User Profile: 5-star luxury resort staff and maintenance teams at Cap Vermell Grand Hotel (Mallorca — active live production proof point).
+- User Profile: 5-star luxury resort staff and maintenance teams at Cap Vermell Grand Hotel (Mallorca  -  active live production proof point).
 - Problem: Guest comfort complaints or room Wi-Fi/HVAC glitches require manual front-desk logging, telephone dispatch, and physical technician intervention, causing guest dissatisfaction and 30+ minute resolution delays.
 - Solution: Staff or guests send natural language messages via Webex/WhatsApp or dial Ext. 1999 on Cisco room IP phones. MAX answers via interactive voice AI (routed via Cisco CUBE & Webex Calling), diagnoses the issue via Meraki and BACnet/IP BMS APIs, adjusts the room thermostat autonomously, or dispatches a targeted technician.
 - Impact: 30% increase in guest satisfaction scores (Source: Cap Vermell Production Pilot Data); incident MTTR reduced from 30 minutes to <5 seconds.
@@ -188,7 +188,7 @@ Use Case 3: Frictionless Operations & ToIP Voice AI (Cap Vermell Live Pilot)
 SECTION 4: TECHNICAL INNOVATION DETAILS & VIDEO SCRIPT
 ================================================================================
 
-4.1 — Technical Components & Architecture Microservices
+4.1  -  Technical Components & Architecture Microservices
 
 TellMAX.AI is built as a cloud-native, modular microservices architecture engineered to run either in hybrid mode or 100% sovereign on-premise. The system consists of four core technical layers:
 
@@ -212,7 +212,7 @@ TellMAX.AI is built as a cloud-native, modular microservices architecture engine
 - Closed-Loop Action Engine: State machine with Human-in-the-Loop (HITL) confirmation flows, ensuring critical network remediation actions (bouncing ports, changing AP channels, modifying ACLs) require authorized engineer approval before execution.
 
 
-4.2 — APIs, Protocol Adapters, and Model Context Protocols (MCPs)
+4.2  -  APIs, Protocol Adapters, and Model Context Protocols (MCPs)
 
 TellMAX.AI interfaces with enterprise IT/OT environments through a comprehensive library of production-tested APIs and custom MCP connectors:
 
@@ -237,14 +237,33 @@ TellMAX.AI interfaces with enterprise IT/OT environments through a comprehensive
 - WhatsApp Business Cloud API & Telegram Bot API (Messaging Gateways)
 
 
-4.5 — Video Demo & Customer Interview Script (Víctor - Cap Vermell)
+4.3  -  Cloud Infrastructure, Scalability & Phased On-Premise Cisco UCS Migration
 
-Part 1 — The Problem (Before TellMAX.AI):
+TellMAX.AI follows a two-phase architecture evolution that balances immediate cloud scalability with long-term enterprise data sovereignty:
+
+Phase 1  -  Active Cloud-Hybrid Scalability & Instant Onboarding:
+- Cloud Microservices Stack: Currently deployed as a cloud-native microservices architecture on secure high-availability infrastructure (Splunk Cloud HEC, Meraki Dashboard API v1, Webex Bots API, WhatsApp Business API, and Redis Streams event queue).
+- Multi-Tenant Scale: Enables Cisco MSP partners to onboard new customer sites in minutes without requiring upfront hardware lead times or local server installation.
+- Horizontal Elasticity: Auto-scaling Celery worker nodes process peak telemetry streams (50,000+ events/sec) and execute real-time L0/L1 incident remediation across multi-site portfolios.
+
+Phase 2  -  Sovereign On-Premise Deployment (Cisco UCS AI Pod Architecture):
+Once MAX reaches 100% operational status in Cloud-Hybrid mode, enterprise customers with strict regulatory mandates (EU DORA, HIPAA, NIS2) or air-gapped security policies transition to Phase 2: a 100% Sovereign On-Premise deployment package installed directly inside the customer's datacenter.
+
+On-Premise Infrastructure & Hardware Details:
+- Compute Nodes: Cisco UCS C885A M8 / C240 M8 enterprise rack servers equipped with dual NVIDIA H100 or L40S Tensor Core GPUs for local, low-latency LLM inference (quantized Llama 3 70B/8B and Mistral).
+- Network Interconnect Fabric: Cisco Nexus 9300 / 9500 switches providing ultra-low latency (<1ms) RoCEv2 (RDMA over Converged Ethernet) network fabric between inferencing nodes and storage arrays.
+- Local Vector RAG Subsystem: On-premise vector database (ChromaDB / Milvus) running on enterprise NVMe storage. Ingests network topology diagrams, equipment manuals, and SOP playbooks locally, ensuring zero data egress outside the customer's security perimeter.
+- On-Premise Observability Core: Local Splunk Enterprise and Heavy Forwarder instances running directly on Cisco UCS compute nodes, keeping all log telemetry, IP address structures, and user data completely air-gapped.
+
+
+4.5  -  Video Demo & Customer Interview Script (Victor - Cap Vermell)
+
+Part 1  -  The Problem (Before TellMAX.AI):
 1. "Before TellMAX.AI, what did a typical day look like when something went wrong on the network?"
 2. "How long did it usually take to figure out what was wrong and fix it?"
 3. "What did that delay actually cost you in time, stress, or customer complaints?"
 
-Part 2 — The Impact (After TellMAX.AI):
+Part 2  -  The Impact (After TellMAX.AI):
 1. "Can you walk us through a specific incident MAX caught or resolved?"
 2. "How much faster is resolution now, roughly?"
-3. "Would you trust MAX to run unsupervised — why or why not?"
+3. "Would you trust MAX to run unsupervised  -  why or why not?"
