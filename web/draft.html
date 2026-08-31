@@ -257,6 +257,56 @@ const gtmStrategyV2 = `
 </div>
 `;
 
+const techComponentsV2 = `
+<div class="space-y-4 font-sans text-gray-200">
+    <p>TellMAX.AI is built as a cloud-native, modular microservices architecture engineered to run either in hybrid mode or 100% sovereign on-premise. The system consists of four core technical layers:</p>
+
+    <p><strong>1. Sovereign Inference & AI Orchestration Compute (Cisco UCS AI Pods):</strong><br>
+    - Hardware Foundation: High-performance Cisco UCS C885A M8 / C240 M8 rack servers equipped with NVIDIA H100/L40S Tensor Core GPUs, connected via Cisco Nexus 9000 low-latency fabric switches.<br>
+    - Fine-Tuned Open-Source LLMs: On-premise execution of quantized Llama 3 (70B/8B) and Mistral models fine-tuned on Cisco IOS-XE CLI syntax, Meraki API specifications, Splunk SPL search commands, and BACnet/IP building automation protocols.<br>
+    - Vector RAG Subsystem: On-premise vector database (ChromaDB / Milvus) storing enterprise network topology maps, equipment hardware manuals, customer SOP playbooks, and historical incident logs. Ensures 100% Zero-Trust data sovereignty without external LLM API calls.</p>
+
+    <p><strong>2. Central Data Ingestion & Observability Engine (Splunk Enterprise + HEC):</strong><br>
+    - Telemetry Ingestion: Real-time data pipeline powered by Splunk HTTP Event Collector (HEC) and REST API, ingesting NetFlow/IPFIX data, Syslog events, SNMP traps from Catalyst switches, Meraki wireless health metrics, and BMS alarm logs.<br>
+    - Real-Time Event Bus: Redis Streams and Celery distributed worker queue capable of handling 50,000+ events per second with sub-100ms processing latency. Intercepts Splunk alerts and triggers MAX's agentic decision engine.</p>
+
+    <p><strong>3. Multi-Protocol Cisco Infrastructure API Adaptors (Model Context Protocol - MCP):</strong><br>
+    - Cisco Meraki Dashboard API v1 & MT/MV Sensors: Programmatic REST endpoints for Meraki MR access points, MS switches, MV smart cameras, and MT environmental sensors.<br>
+    - Cisco Catalyst Center (DNA Center) Platform APIs: Automated REST API integration for TDR cable diagnostics, port bouncing, VLAN re-assignment, and Zero-Trust microsegmentation.<br>
+    - Cisco Spaces Location APIs: Real-time Wi-Fi/BLE location and occupancy density streaming to execute automated HVAC/lighting adjustments in unoccupied resort/office zones.<br>
+    - Cisco CUBE & Webex Calling Local Gateway: SIP Trunk integration via Cisco Unified Border Element (CUBE) to enable interactive hands-free voice AI calling (Ext. 1999).</p>
+
+    <p><strong>4. Omnichannel User Experience & Agentic Execution Framework:</strong><br>
+    - Omnichannel Adapters: Cisco Webex Bots API, WhatsApp Business Cloud API, and Telegram Bot API.<br>
+    - Closed-Loop Action Engine: State machine with Human-in-the-Loop (HITL) confirmation flows, ensuring critical network remediation actions require authorized engineer approval before execution.</p>
+</div>
+`;
+const apisV2 = `
+<div class="space-y-4 font-sans text-gray-200">
+    <p>TellMAX.AI interfaces with enterprise IT/OT environments through a comprehensive library of production-tested APIs and custom MCP connectors:</p>
+
+    <p><strong>1. Cisco Platform APIs:</strong><br>
+    - Cisco Meraki Dashboard API v1 (Network & Switch Port Control)<br>
+    - Cisco Meraki MV Sense API (Occupancy & Camera Computer Vision)<br>
+    - Cisco Meraki MT API (Environmental IoT Sensor Telemetry)<br>
+    - Cisco Catalyst Center (DNA Center) Platform API (TDR Cable Tests, Port Bounce, VLAN Control)<br>
+    - Cisco Spaces Location & Density API (Occupancy Analytics)<br>
+    - Cisco Webex Bots API & Webex Meetings API (Team Collaboration & Alerts)<br>
+    - Cisco CUBE SIP Trunk Gateway Interface (Voice AI Call Routing)<br>
+    - Cisco ThousandEyes REST API (WAN & SaaS Synthetic Path Monitoring)</p>
+
+    <p><strong>2. Splunk Observability APIs:</strong><br>
+    - Splunk REST Search API (SPL Query Execution & Log Parsing)<br>
+    - Splunk HTTP Event Collector (HEC) (Real-Time Ingestion)<br>
+    - Splunk Alerting Webhook Engine & ITSI Service Intelligence API</p>
+
+    <p><strong>3. Operational & Industrial APIs (OT / Facilities / PMS):</strong><br>
+    - BACnet/IP & Modbus TCP Protocol Adapters (Building Management Systems & HVAC Automation)<br>
+    - Hospitality PMS Integration (Oracle Opera REST API & Mews PMS API for guest room status)<br>
+    - WhatsApp Business Cloud API & Telegram Bot API (Messaging Gateways)</p>
+</div>
+`;
+
 const ciscoRelevanceV2 = `
 <div class="space-y-4 font-sans text-gray-200">
     <p><strong>1. Tool Sprawl Reduction:</strong><br>
@@ -889,6 +939,10 @@ const ciscoRelevanceV2 = `
 
             const ciscoSec = sectionsV2.find(s => s.id === 'cisco-relevance');
             if (ciscoSec) ciscoSec.content = ciscoRelevanceV2;
+            const techCompSec = sectionsV2.find(s => s.id === "technical-components");
+            if (techCompSec) techCompSec.content = techComponentsV2;
+            const apisSec = sectionsV2.find(s => s.id === "apis");
+            if (apisSec) apisSec.content = apisV2;
             const gtmSec = sectionsV2.find(s => s.id === "gtm-strategy");
             if (gtmSec) gtmSec.content = gtmStrategyV2;
             const techAlignSec = sectionsV2.find(s => s.id === "tech-alignment");

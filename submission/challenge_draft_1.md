@@ -180,6 +180,55 @@ Use Case 3: Frictionless Operations & ToIP Voice AI (Cap Vermell Live Pilot)
 SECTION 4: TECHNICAL INNOVATION DETAILS & VIDEO SCRIPT
 ================================================================================
 
+4.1 — Technical Components & Architecture Microservices
+
+TellMAX.AI is built as a cloud-native, modular microservices architecture engineered to run either in hybrid mode or 100% sovereign on-premise. The system consists of four core technical layers:
+
+1. Sovereign Inference & AI Orchestration Compute (Cisco UCS AI Pods):
+- Hardware Foundation: High-performance Cisco UCS C885A M8 / C240 M8 rack servers equipped with NVIDIA H100/L40S Tensor Core GPUs, connected via Cisco Nexus 9000 low-latency fabric switches.
+- Fine-Tuned Open-Source LLMs: On-premise execution of quantized Llama 3 (70B/8B) and Mistral models fine-tuned on Cisco IOS-XE CLI syntax, Meraki API specifications, Splunk SPL search commands, and BACnet/IP building automation protocols.
+- Vector RAG Subsystem: On-premise vector database (ChromaDB / Milvus) storing enterprise network topology maps, equipment hardware manuals, customer SOP playbooks, and historical incident logs. Ensures 100% Zero-Trust data sovereignty without external LLM API calls.
+
+2. Central Data Ingestion & Observability Engine (Splunk Enterprise + HEC):
+- Telemetry Ingestion: Real-time data pipeline powered by Splunk HTTP Event Collector (HEC) and REST API, ingesting NetFlow/IPFIX data, Syslog events, SNMP traps from Catalyst switches, Meraki wireless health metrics, and BMS alarm logs.
+- Real-Time Event Bus: Redis Streams and Celery distributed worker queue capable of handling 50,000+ events per second with sub-100ms processing latency. Intercepts Splunk alerts and triggers MAX's agentic decision engine.
+
+3. Multi-Protocol Cisco Infrastructure API Adaptors (Model Context Protocol - MCP):
+- Cisco Meraki Dashboard API v1 & MT/MV Sensors: Programmatic REST endpoints for Meraki MR access points, MS switches, MV smart cameras, and MT environmental sensors (temperature, humidity, water detection).
+- Cisco Catalyst Center (DNA Center) Platform APIs: Automated REST API integration for TDR cable diagnostics, port bouncing, VLAN re-assignment, and Zero-Trust microsegmentation.
+- Cisco Spaces Location APIs: Real-time Wi-Fi/BLE location and occupancy density streaming to execute automated HVAC/lighting adjustments in unoccupied resort/office zones.
+- Cisco CUBE & Webex Calling Local Gateway: SIP Trunk integration via Cisco Unified Border Element (CUBE) to enable interactive hands-free voice AI calling (e.g. room extension 1999).
+
+4. Omnichannel User Experience & Agentic Execution Framework:
+- Omnichannel Adapters: Cisco Webex Bots API, WhatsApp Business Cloud API, and Telegram Bot API.
+- Closed-Loop Action Engine: State machine with Human-in-the-Loop (HITL) confirmation flows, ensuring critical network remediation actions (bouncing ports, changing AP channels, modifying ACLs) require authorized engineer approval before execution.
+
+
+4.2 — APIs, Protocol Adapters, and Model Context Protocols (MCPs)
+
+TellMAX.AI interfaces with enterprise IT/OT environments through a comprehensive library of production-tested APIs and custom MCP connectors:
+
+1. Cisco Platform APIs:
+- Cisco Meraki Dashboard API v1 (Network & Switch Port Control)
+- Cisco Meraki MV Sense API (Occupancy & Camera Computer Vision)
+- Cisco Meraki MT API (Environmental IoT Sensor Telemetry)
+- Cisco Catalyst Center (DNA Center) Platform API (TDR Cable Tests, Port Bounce, VLAN Control)
+- Cisco Spaces Location & Density API (Occupancy Analytics)
+- Cisco Webex Bots API & Webex Meetings API (Team Collaboration & Alerts)
+- Cisco CUBE SIP Trunk Gateway Interface (Voice AI Call Routing)
+- Cisco ThousandEyes REST API (WAN & SaaS Synthetic Path Monitoring)
+
+2. Splunk Observability APIs:
+- Splunk REST Search API (SPL Query Execution & Log Parsing)
+- Splunk HTTP Event Collector (HEC) (Real-Time Ingestion)
+- Splunk Alerting Webhook Engine & ITSI Service Intelligence API
+
+3. Operational & Industrial APIs (OT / Facilities / PMS):
+- BACnet/IP & Modbus TCP Protocol Adapters (Building Management Systems & HVAC Automation)
+- Hospitality PMS Integration (Oracle Opera REST API & Mews PMS API for guest room status)
+- WhatsApp Business Cloud API & Telegram Bot API (Messaging Gateways)
+
+
 4.5 — Video Demo & Customer Interview Script (Víctor - Cap Vermell)
 
 Part 1 — The Problem (Before TellMAX.AI):
