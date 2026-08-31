@@ -51,10 +51,14 @@ Operational stacks have become too complex for humans to triage manually, yet tr
 What is it & Who is it for?
 TellMAX.AI is a Sovereign Operations Assistant for Cisco Partners (MSPs/MSSPs) managing multi-site environments in high-stakes verticals: Manufacturing, Healthcare, and Finance — backed by an active, production-tested live pilot at Cap Vermell Grand Hotel (Luxury Hospitality) and 2 new beta pilots ready to launch in Manufacturing and Healthcare. Operators simply "tell MAX" what they need via Webex, WhatsApp, Telegram, or hands-free voice.
 
+Two-Phase Architecture & Sovereign Migration Path:
+- Phase 1 (Current Active Cloud Hybrid): Currently deployed and running in production via a cloud-hybrid model (Splunk Cloud HEC, Meraki Dashboard API, Webex Bots API, WhatsApp/Telegram gateways). This provides immediate time-to-value, zero friction, and instant L0/L1 incident resolution without requiring upfront hardware installations.
+- Phase 2 (Sovereign On-Premise UCS Migration): Once MAX is fully operational, enterprise customers with strict privacy, regulatory, or sovereignty mandates transition to Phase 2: migrating the entire LLM inference engine, vector RAG database, and Splunk instance onto local Cisco UCS AI Pods (C-Series servers with NVIDIA GPUs) inside the customer's datacenter for 100% local data privacy and zero cloud leakage.
+
 Three Core Breakthroughs:
 1. The Brain of Splunk: While Splunk excels at ingesting massive operational telemetry, MAX acts as its "frontal lobe" — translating raw SPL logs and anomalies into natural conversation, cross-referencing live IT/OT context with technical manuals via RAG, and making autonomous operational decisions where static playbooks fail.
 2. Partner Superpowers & Instant MTTR Reduction: MAX transforms L0/L1 triage by reducing Mean Time To Resolution by up to 85%. Engineers interact via Webex chat or hands-free voice (routed through Cisco CUBE and Webex Calling), allowing MAX to retrieve device status, perform cable diagnostics, and execute port bounces in seconds — scaling MSP operations without increasing headcount.
-3. Sovereign Operations Architecture: Designed for environments where operational data can never leave the premises, MAX provides a clear migration path to run 100% on-premise on Cisco UCS AI Pods. Enterprises get advanced LLM reasoning without exposing sensitive infrastructure data to public cloud providers.
+3. Sovereign Operations Architecture & UCS Migration: Designed for environments where operational data can never leave the premises, MAX provides a seamless migration path from initial cloud-hybrid deployment to a 100% on-premise sovereign package on Cisco UCS AI Pods.
 
 
 2.2 — Market Opportunity
@@ -144,18 +148,18 @@ Cisco Products Enhanced & Required:
 Cisco UCS (AI Pods), Splunk Enterprise/SIEM/ITSI, Meraki (MV, MT, MR, MS), Catalyst 9000 (Catalyst Center APIs), Cisco Spaces, Webex, Cisco CUBE, Webex Calling, ThousandEyes.
 
 
-3.3 — Two-Track Roadmap (GTM vs Technical)
+3.3 — Two-Track Roadmap (GTM vs Technical Deployment)
 
 1. GTM Vertical Roadmap:
-- Q3 2026: Live Hospitality Pilot Validation at Cap Vermell Grand Hotel.
+- Q3 2026: Live Hospitality Pilot Validation at Cap Vermell Grand Hotel (Cloud Hybrid Phase 1).
 - Q4 2026: Manufacturing & Healthcare Beta Co-sells (2 target clients per sector).
 - Q1 2027: General Availability (GA v1.0) & Packaged Cisco Partner Motion.
 - Q2 2027: Splunkbase Certification & Cisco DevNet Exchange Listing.
 
-2. Technical Architecture Roadmap:
-- Phase 1 (Current): Webex / Telegram / WhatsApp Bot + Splunk HEC + Meraki Dashboard API + Live Speech Web Demo.
-- Phase 2 (Q1 2027): Cisco CUBE + Webex Calling Local Gateway SIP Trunk Integration (Room phone Ext. 1999).
-- Phase 3 (2027+): 100% Sovereign On-Premise LLM deployment package on Cisco UCS AI Pods.
+2. Technical Architecture Roadmap (Cloud-to-UCS Migration Path):
+- Phase 1 (Current Active Production): Cloud-Hybrid deployment (Webex / Telegram / WhatsApp Bot + Splunk HEC + Meraki Dashboard API) for instant zero-friction onboarding and immediate L0/L1 triage automation.
+- Phase 2 (Q1 2027): Cisco CUBE + Webex Calling Local Gateway SIP Trunk Integration (Room phone Ext. 1999) for hands-free voice AI operational control.
+- Phase 3 (2027+ Sovereign On-Prem Package): Complete on-premise migration package deploying fine-tuned LLMs, vector RAG databases, and Splunk Enterprise onto local Cisco UCS AI Pods in the customer's datacenter for 100% data privacy.
 
 
 3.4 — Customer Use Cases
