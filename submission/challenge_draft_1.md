@@ -166,19 +166,22 @@ Cisco UCS (AI Pods), Splunk Enterprise/SIEM/ITSI, Meraki (MV, MT, MR, MS), Catal
 3.4 — Customer Use Cases
 
 Use Case 1: Manufacturing OT/IT Downtime Prevention (Manufacturing)
-- Problem: A traffic spike on an OT VLAN threatens to halt a SCADA assembly line ($22k/min cost).
-- Solution: Splunk detects the anomaly; MAX cross-references Meraki MT temperature sensors and checks switch port status via DNA Center. MAX alerts the team in Webex with root cause and fix recommendation. Engineer approves; MAX bounces port.
-- Impact: 90% reduction in downtime; IT/OT silos eliminated.
+- User Profile: Plant operations and IT network infrastructure teams managing combined SCADA/PLC production lines and enterprise networks on a unified Cisco backbone.
+- Problem: An unexpected traffic spike on an OT VLAN threatens to halt an industrial assembly line, where downtime costs an average of $22,000 per minute ($1.3M+ per hour) in lost SCADA production (Source: Siemens / Vanson Bourne Study). Manual cross-team triage between IT and plant engineers traditionally takes over 60 minutes.
+- Solution: Splunk detects the traffic anomaly in real time. MAX autonomously cross-references Meraki MT temperature/vibration sensors, queries switch port status via Catalyst Center (DNA Center) APIs, and identifies a misconfigured port. MAX pushes a unified incident report to the plant IT team in Webex with a recommended fix. Upon engineer confirmation, MAX executes a closed-loop port bounce in seconds.
+- Impact: 90% reduction in unplanned downtime; IT/OT operational silos eliminated; MTTR reduced from 60 minutes to <5 seconds.
 
 Use Case 2: Zero-Downtime Medical Telemetry Resilience (Healthcare)
-- Problem: Wi-Fi interference degrades patient telemetry monitors in a hospital wing.
-- Solution: MAX monitors Meraki MR wireless health APIs, detects channel congestion, and programmatically adjusts AP channel assignments via API before clinical alerts trigger.
-- Impact: Zero clinical interruption; MTTR reduced from 60 min to <5 sec.
+- User Profile: Hospital biomedical engineering and IT infrastructure teams responsible for zero-outage clinical telemetry.
+- Problem: Unintentional RF interference degrades patient telemetry monitors in a critical care unit. Hospital network outages cost $8,600 to $15,000 per minute, with high clinical risk across 15 to 20 connected medical IoT devices per bed (Source: Gartner Healthcare IT Risk).
+- Solution: MAX continuously monitors Meraki MR wireless health APIs and Splunk ITSI log telemetry. Detecting channel congestion on the clinical SSID, MAX programmatically re-assigns Meraki AP channel allocations via API before patient monitoring alerts are triggered.
+- Impact: Zero clinical telemetry interruption; proactive radio channel optimization executed in <5 seconds without human intervention.
 
 Use Case 3: Frictionless Operations & ToIP Voice AI (Cap Vermell Live Pilot)
-- Problem: Guest complaints or network glitches require manual front-desk & maintenance dispatch.
-- Solution: Staff or guests send Webex/WhatsApp messages or dial Ext 1999 on room phones. MAX answers via voice, diagnoses via Meraki API, and adjusts BMS thermostats or dispatches technician.
-- Impact: +30% guest satisfaction; MTTR reduced from 30 min to <5 sec.
+- User Profile: 5-star luxury resort staff and maintenance teams at Cap Vermell Grand Hotel (Mallorca — active live production proof point).
+- Problem: Guest comfort complaints or room Wi-Fi/HVAC glitches require manual front-desk logging, telephone dispatch, and physical technician intervention, causing guest dissatisfaction and 30+ minute resolution delays.
+- Solution: Staff or guests send natural language messages via Webex/WhatsApp or dial Ext. 1999 on Cisco room IP phones. MAX answers via interactive voice AI (routed via Cisco CUBE & Webex Calling), diagnoses the issue via Meraki and BACnet/IP BMS APIs, adjusts the room thermostat autonomously, or dispatches a targeted technician.
+- Impact: 30% increase in guest satisfaction scores (Source: Cap Vermell Production Pilot Data); incident MTTR reduced from 30 minutes to <5 seconds.
 
 
 ================================================================================

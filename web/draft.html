@@ -337,26 +337,26 @@ const ciscoRelevanceV2 = `
 <div class="space-y-6 font-sans text-gray-200">
     <div>
         <p><strong>Use Case 1: Manufacturing OT/IT Downtime Prevention (Manufacturing)</strong></p>
-        <p>User: Plant ops + IT team with production lines, SCADA/PLC, and enterprise IT on same Cisco backbone.</p>
-        <p>Problem: Network anomaly on OT VLAN can halt factory line ($22,000/minute cost). Manual cross-team triage takes hours.</p>
-        <p>Solution: Splunk detects traffic spike on OT VLAN. MAX cross-references Meraki MT sensors, checks switch port status via DNA Center, and pushes alert to Webex with root cause and fix recommendation. Engineer approves; MAX bounces port.</p>
-        <p>Impact: 90% downtime reduction. IT/OT wall eliminated. MTTR: 60 min to &lt;5 sec.</p>
+        <p><strong>User Profile:</strong> Plant operations and IT network infrastructure teams managing combined SCADA/PLC production lines and enterprise networks on a unified Cisco backbone.</p>
+        <p><strong>Problem:</strong> An unexpected traffic spike on an OT VLAN threatens to halt an industrial assembly line, where downtime costs an average of $22,000 per minute ($1.3M+ per hour) in lost SCADA production (Source: Siemens / Vanson Bourne Study). Manual cross-team triage traditionally takes over 60 minutes.</p>
+        <p><strong>Solution:</strong> Splunk detects the traffic anomaly in real time. MAX autonomously cross-references Meraki MT temperature/vibration sensors, queries switch port status via Catalyst Center (DNA Center) APIs, and identifies a misconfigured port. MAX pushes a unified incident report to the plant IT team in Webex with a recommended fix. Upon engineer confirmation, MAX executes a closed-loop port bounce in seconds.</p>
+        <p><strong>Impact:</strong> 90% reduction in unplanned downtime; IT/OT operational silos eliminated; MTTR reduced from 60 minutes to &lt;5 seconds.</p>
     </div>
 
     <div>
         <p><strong>Use Case 2: Zero-Downtime Medical Telemetry Resilience (Healthcare)</strong></p>
-        <p>User: Hospital biomedical & IT infrastructure team.</p>
-        <p>Problem: Wi-Fi interference degrades patient telemetry monitors in a critical care wing. Zero tolerance for clinical outages.</p>
-        <p>Solution: MAX monitors Meraki MR wireless health APIs, detects channel congestion, and programmatically adjusts AP channel assignments via API before clinical alerts trigger.</p>
-        <p>Impact: Zero clinical interruption. Proactive radio optimization in &lt;5 sec.</p>
+        <p><strong>User Profile:</strong> Hospital biomedical engineering and IT infrastructure teams responsible for zero-outage clinical telemetry.</p>
+        <p><strong>Problem:</strong> Unintentional RF interference degrades patient telemetry monitors in a critical care unit. Hospital network outages cost $8,600 to $15,000 per minute, with high clinical risk across 15 to 20 connected medical IoT devices per bed (Source: Gartner Healthcare IT Risk).</p>
+        <p><strong>Solution:</strong> MAX continuously monitors Meraki MR wireless health APIs and Splunk ITSI log telemetry. Detecting channel congestion on the clinical SSID, MAX programmatically re-assigns Meraki AP channel allocations via API before patient monitoring alerts are triggered.</p>
+        <p><strong>Impact:</strong> Zero clinical telemetry interruption; proactive radio channel optimization executed in &lt;5 seconds without human intervention.</p>
     </div>
 
     <div>
         <p><strong>Use Case 3: Frictionless Operations & ToIP Voice AI (Cap Vermell Live Pilot)</strong></p>
-        <p>User: Resort staff & guests (Cap Vermell Grand Hotel — live PoC).</p>
-        <p>Problem: Guest complaints or network glitches require manual front-desk & maintenance dispatch.</p>
-        <p>Solution: Staff or guests send Webex/WhatsApp messages or dial Ext 1999 on room phones. MAX answers via voice, diagnoses via Meraki API, and adjusts BMS thermostats or dispatches technician.</p>
-        <p>Impact: +30% guest satisfaction. MTTR: 30 min to &lt;5 sec.</p>
+        <p><strong>User Profile:</strong> 5-star luxury resort staff and maintenance teams at Cap Vermell Grand Hotel (Mallorca — active live production proof point).</p>
+        <p><strong>Problem:</strong> Guest comfort complaints or room Wi-Fi/HVAC glitches require manual front-desk logging, telephone dispatch, and physical technician intervention, causing guest dissatisfaction and 30+ minute resolution delays.</p>
+        <p><strong>Solution:</strong> Staff or guests send natural language messages via Webex/WhatsApp or dial Ext. 1999 on Cisco room IP phones. MAX answers via interactive voice AI (routed via Cisco CUBE & Webex Calling), diagnoses the issue via Meraki and BACnet/IP BMS APIs, adjusts the room thermostat autonomously, or dispatches a targeted technician.</p>
+        <p><strong>Impact:</strong> 30% increase in guest satisfaction scores (Source: Cap Vermell Production Pilot Data); incident MTTR reduced from 30 minutes to &lt;5 seconds.</p>
     </div>
 </div>
 `;
