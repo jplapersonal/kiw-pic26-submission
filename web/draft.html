@@ -971,7 +971,28 @@ const ciscoRelevanceV2 = `
             document.getElementById('main-content').innerHTML = sections.map(s => renderSection(s.id, s.title, s.content, s.isPending)).join('');
         }
 
-        function switchVersion(v) { currentVersion = "v2"; renderPage(); }
+        function switchVersion(v) {
+            currentVersion = v;
+            
+            const btnV0 = document.getElementById('ver-btn-v0');
+            const btnV1 = document.getElementById('ver-btn-v1');
+            const btnV2 = document.getElementById('ver-btn-v2');
+
+            if (btnV0) btnV0.className = "px-2 py-1 rounded font-medium transition-all text-gray-400 hover:text-white border border-transparent";
+            if (btnV1) btnV1.className = "px-2 py-1 rounded font-medium transition-all text-gray-400 hover:text-white border border-transparent";
+            if (btnV2) btnV2.className = "px-2 py-1 rounded font-medium transition-all text-gray-400 hover:text-white border border-transparent";
+
+            if (v === 'v0' && btnV0) {
+                btnV0.className = "px-2.5 py-1 rounded-md font-medium transition-all bg-amber-500/20 text-amber-400 border border-amber-500/30";
+            } else if (v === 'v1' && btnV1) {
+                btnV1.className = "px-2.5 py-1 rounded-md font-medium transition-all bg-purple-500/20 text-purple-300 border border-purple-500/30";
+            } else if (v === 'v2' && btnV2) {
+                btnV2.className = "px-2.5 py-1 rounded-md font-medium transition-all bg-cisco-cyan/20 text-cisco-cyan border border-cisco-cyan/30";
+            }
+
+            renderPage();
+            loadNotes();
+        }
 
         function loadNotes() {
             fetch('/api/notes?v=' + currentVersion, { credentials: 'same-origin' })
