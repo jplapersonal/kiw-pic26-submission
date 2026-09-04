@@ -93,8 +93,11 @@
                 <button onclick="switchVersion('v1')" id="ver-btn-v1" class="px-2.5 py-1 rounded font-medium transition-all text-gray-400 hover:text-white border border-transparent">
                     v1 (Rev 1)
                 </button>
-                <button onclick="switchVersion('v2')" id="ver-btn-v2" class="px-3 py-1 rounded-md font-medium transition-all bg-cisco-cyan/20 text-cisco-cyan border border-cisco-cyan/30">
-                    v2 (Final Submission) <span class="bg-cisco-green/20 text-cisco-green text-[9px] px-1 py-0.5 rounded ml-1 font-bold">FINAL</span>
+                <button onclick="switchVersion('v2')" id="ver-btn-v2" class="px-2.5 py-1 rounded font-medium transition-all text-gray-400 hover:text-white border border-transparent">
+                    v2 (Rev 2)
+                </button>
+                <button onclick="switchVersion('v3')" id="ver-btn-v3" class="px-3 py-1 rounded-md font-medium transition-all bg-cisco-cyan/20 text-cisco-cyan border border-cisco-cyan/30">
+                    v3 (Varsha Review 2) <span class="bg-cisco-green/20 text-cisco-green text-[9px] px-1 py-0.5 rounded ml-1 font-bold">FINAL</span>
                 </button>
             </div>
 
@@ -346,6 +349,66 @@ const cloudInfraV2 = `
     - Network Interconnect Fabric: Cisco Nexus 9300 / 9500 switches providing ultra-low latency (&lt;1ms) RoCEv2 (RDMA over Converged Ethernet) network fabric between inferencing nodes and storage arrays.<br>
     - Local Vector RAG Subsystem: On-premise vector database (ChromaDB / Milvus) running on enterprise NVMe storage. Ingests network topology diagrams, equipment manuals, and SOP playbooks locally, ensuring zero data egress outside the customer's security perimeter.<br>
     - On-Premise Observability Core: Local Splunk Enterprise and Heavy Forwarder instances running directly on Cisco UCS compute nodes, keeping all log telemetry, IP address structures, and user data completely air-gapped.</p>
+</div>
+`;
+
+const marketOppV3 = `
+<div class="space-y-4 font-sans text-gray-200">
+    <p><strong>Total Addressable Market (TAM):</strong><br>
+    The global AIOps and IT operations management market is projected to reach <strong>$32.5 Billion by 2030</strong> (Source: MarketsandMarkets AIOps Global Forecast 2025-2030), driven by the exploding volume of telemetry across hybrid IT and OT environments. As enterprises digitize critical operations, infrastructure downtime has become an existential financial risk across key industries:</p>
+
+    <p><strong>1. Manufacturing & Industrial:</strong> Factory network downtime costs manufacturers an average of <strong>$39,000 per minute</strong> ($2.3M+ per hour) in lost SCADA/PLC production (Source: Siemens "True Cost of Downtime" Report).</p>
+
+    <p><strong>2. Financial Services & Banking:</strong> Core transaction processing outages cost financial institutions an average of <strong>$5.6 Million per hour</strong> ($93,000/minute) (Source: Gartner Financial Infrastructure Analysis). Under the EU Digital Operational Resilience Act (DORA), institutions face regulatory penalties of up to 2% of annual global turnover for ICT service disruptions.</p>
+
+    <p><strong>3. Healthcare & Life Sciences:</strong> Hospital IT and network outages cost an average of <strong>$8,600 to $15,000 per minute</strong> (Source: Gartner Healthcare IT Risk Analysis), with acute operational risk across 15 to 20 connected medical IoT devices per bed in clinical wards.</p>
+
+    <p><strong>Serviceable Available Market (SAM):</strong><br>
+    Targeted at ~15,000 Cisco Managed Service Partners (MSPs/MSSPs) across EMEAR and the Americas managing enterprise portfolios with Splunk, Meraki, and Catalyst deployments. At an average annual managed service overlay subscription of $15,000 to $35,000 per multi-site deployment, the immediate addressable partner market represents <strong>$300M to $500M in annual recurring revenue (ARR)</strong>, unlocking high-margin service expansion across the Cisco partner channel.</p>
+</div>
+`;
+const ciscoRelevanceV3 = `
+<div class="space-y-4 font-sans text-gray-200">
+    <p><strong>1. Consolidation & Operational Simplicity:</strong><br>
+    TellMAX.AI consolidates fragmented operational dashboards into a single unified execution channel. By bridging Splunk, Meraki, Catalyst Center, Cisco Spaces, Webex, and Cisco CUBE, MAX enables enterprise operators to manage their entire Cisco ecosystem through natural language, transforming passive monitoring into active operational resilience.</p>
+
+    <p><strong>2. Driving Adoption, Renewals & Customer Retention:</strong><br>
+    Cisco's technology portfolio is exceptionally powerful, but enterprise customers often struggle to fully utilize its advanced capabilities due to operational complexity and talent constraints. TellMAX.AI eliminates this adoption friction by ensuring customers actively consume and derive daily value from the Cisco features they own. This drives higher customer satisfaction, reduces churn, and strengthens subscription renewals, directly supporting the Cisco 360 Partner Program's emphasis on lifecycle adoption and customer value.</p>
+
+    <p><strong>3. Executive Alignment (Cisco Leadership & Financial Focus):</strong><br>
+    During Cisco's recent earnings call, CEO Chuck Robbins highlighted that enterprise demand for AI and operational automation is directly accelerating customer commitment to Cisco's core observability and networking portfolio. TellMAX.AI aligns directly with this executive focus by serving as an operational execution engine that maximizes the return on investment for Splunk and Cisco infrastructure.</p>
+
+    <p><strong>4. Explicit Business Units, Industries & Security Products Impacted:</strong><br>
+    - <strong>Business Units Impacted:</strong> 1) Security & Observability (Splunk Enterprise, SIEM, ITSI), 2) Networking & IoT (Meraki Dashboard, Catalyst Center APIs, MT/MV IoT sensors), 3) Collaboration & Voice (Webex Bots API, Cisco CUBE, Webex Calling), 4) Compute (Cisco UCS AI Pods).<br>
+    - <strong>Target Industries:</strong> Manufacturing & Industrial, Healthcare & Life Sciences, Financial Services, and Luxury Hospitality.<br>
+    - <strong>Security Integration:</strong> TellMAX.AI directly integrates with Cisco Security solutions, including Splunk Enterprise Security for real-time threat telemetry ingestion and Cisco Duo / Identity Services Engine (ISE) for Zero-Trust role-based access control (RBAC), ensuring autonomous remediation actions execute strictly within authenticated security boundaries.<br>
+    - <strong>Primary Products Enhanced:</strong> Splunk Enterprise/SIEM, Meraki (MR, MS, MT, MV), Catalyst Center, Cisco Spaces, Webex, Cisco CUBE, Cisco Duo, Cisco UCS.</p>
+</div>
+`;
+
+const execSummaryV3 = `
+<div class="space-y-4 font-sans text-gray-200">
+    <p><strong>The Problem:</strong><br>
+    Enterprise IT operations and Managed Service Partners are drowning in alert fatigue. Modern critical infrastructure environments generate thousands of daily monitoring events across fragmented networking and security tools. Recent industry research reveals that <strong>74% of IT teams suffer from severe alert fatigue</strong>, while average incident resolution times (MTTR) stretch from 45 to 90 minutes because engineers must manually cross-reference data across isolated dashboards (Source: BusinessWire Alert Fatigue & Production Reliability Study).</p>
+
+    <p><strong>What TellMAX.AI Is:</strong><br>
+    TellMAX.AI is an <strong>Autonomous AI Operations Assistant</strong> for Cisco Partners and enterprise IT teams managing multi-site critical infrastructure across Manufacturing, Healthcare, Financial Services, and Luxury Hospitality. Instead of navigating dozens of complex monitoring screens, operators simply communicate with MAX in plain natural language via messaging platforms or hands-free voice. TellMAX.AI acts as a digital clone of the network engineer — continuously analyzing telemetry, diagnosing root causes, and executing automated fixes in seconds.</p>
+
+    <p><strong>Why This Matters Now:</strong><br>
+    The strategic unification of Cisco and Splunk has created an unprecedented opportunity to combine deep network infrastructure control with massive real-time observability data. Concurrently, AI technology has evolved from passive chatbots into autonomous operational agents capable of taking direct system actions. TellMAX.AI captures this exact moment, turning passive monitoring data into active, automated incident resolution.</p>
+
+    <p><strong>Two-Phase Architecture Plan:</strong><br>
+    - <strong>Phase 1 (Cloud-Hybrid Speed & Simplicity):</strong> Currently active and running in production via a secure cloud-hybrid architecture. This provides immediate time-to-value, zero friction, and instant operational automation without requiring upfront hardware installation.<br>
+    - <strong>Phase 2 (Sovereign On-Premise Enterprise Option):</strong> Once operational workflows are established, enterprise clients with strict data privacy, regulatory (EU DORA, HIPAA), or air-gapped security requirements can transition to a 100% Sovereign On-Premise deployment on Cisco UCS AI Pod servers inside their own datacenter, ensuring complete local data privacy.</p>
+
+    <p><strong>Two Core Breakthroughs:</strong></p>
+    <ol class="list-decimal pl-6 space-y-2">
+        <li><strong>1. The Brain of Splunk:</strong> While Splunk excels at ingesting massive operational telemetry, MAX acts as its conversational intelligence layer — translating complex system logs and anomalies into simple human dialogue, cross-referencing live network context with technical documentation, and making autonomous decisions where rigid playbooks fail.</li>
+        <li><strong>2. Scaling Partner Engineering & MTTR Reduction:</strong> MAX transforms incident response by reducing resolution times by up to <strong>85%</strong> (Source: Cap Vermell Live Production Benchmark). Field engineers and support teams interact via chat or hands-free voice, allowing MAX to check device health, run diagnostics, and bounce network ports in seconds — enabling partners to scale managed services without adding headcount.</li>
+    </ol>
+
+    <p class="pt-2 border-t border-white/10"><strong>Core Differentiator:</strong><br>
+    TellMAX.AI is NOT another generic AI chatbot or passive Q&A assistant sitting on top of your network. MAX possesses deep operational context and active API control across your entire IT and OT infrastructure to execute real-time, closed-loop remediation actions in seconds.</p>
 </div>
 `;
 
@@ -1012,6 +1075,26 @@ const ciscoRelevanceV2 = `
         }
 
         function switchVersion(v) {
+            currentVersion = v;
+            const btnV0 = document.getElementById('ver-btn-v0');
+            const btnV1 = document.getElementById('ver-btn-v1');
+            const btnV2 = document.getElementById('ver-btn-v2');
+            const btnV3 = document.getElementById('ver-btn-v3');
+
+            if (btnV0) btnV0.className = "px-2 py-1 rounded font-medium transition-all text-gray-400 hover:text-white border border-transparent";
+            if (btnV1) btnV1.className = "px-2 py-1 rounded font-medium transition-all text-gray-400 hover:text-white border border-transparent";
+            if (btnV2) btnV2.className = "px-2 py-1 rounded font-medium transition-all text-gray-400 hover:text-white border border-transparent";
+            if (btnV3) btnV3.className = "px-2 py-1 rounded font-medium transition-all text-gray-400 hover:text-white border border-transparent";
+
+            if (v === 'v0' && btnV0) btnV0.className = "px-2.5 py-1 rounded-md font-medium transition-all bg-amber-500/20 text-amber-400 border border-amber-500/30";
+            if (v === 'v1' && btnV1) btnV1.className = "px-2.5 py-1 rounded-md font-medium transition-all bg-purple-500/20 text-purple-300 border border-purple-500/30";
+            if (v === 'v2' && btnV2) btnV2.className = "px-2.5 py-1 rounded-md font-medium transition-all bg-blue-500/20 text-blue-300 border border-blue-500/30";
+            if (v === 'v3' && btnV3) btnV3.className = "px-2.5 py-1 rounded-md font-medium transition-all bg-cisco-cyan/20 text-cisco-cyan border border-cisco-cyan/30";
+
+            renderPage();
+            loadNotes();
+        }
+        function oldSwitchVersionIgnored(v) {
             currentVersion = v;
             
             const btnV0 = document.getElementById('ver-btn-v0');
