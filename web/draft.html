@@ -512,7 +512,7 @@ const ciscoRelevanceV2 = `
                                     <tr class="border-b border-dark-border"><td class="py-2 text-gray-400">Team leader</td><td class="py-2 text-white font-medium">José Plá</td></tr>
                                     <tr class="border-b border-dark-border"><td class="py-2 text-gray-400">Email</td><td class="py-2 text-white font-medium">jpla@kiw.one</td></tr>
                                     <tr class="border-b border-dark-border"><td class="py-2 text-gray-400">Company</td><td class="py-2 text-white font-medium">KIW</td></tr>
-                                    <tr class="border-b border-dark-border"><td class="py-2 text-gray-400">Innovation name</td><td class="py-2 text-white font-medium">TellMAX.AI — Sovereign Operations Assistant</td></tr>
+                                    <tr class="border-b border-dark-border"><td class="py-2 text-gray-400">Innovation name</td><td class="py-2 text-white font-medium">TellMAX.AI — Autonomous AI Operations Assistant</td></tr>
                                     <tr class="border-b border-dark-border"><td class="py-2 text-gray-400">Geography</td><td class="py-2 text-white font-medium">EMEAR</td></tr>
                                     <tr class="border-b border-dark-border"><td class="py-2 text-gray-400">Country</td><td class="py-2 text-white font-medium">Spain</td></tr>
                                     <tr><td class="py-2 text-gray-400">BE GEO ID</td><td class="py-2 text-white font-medium">588355</td></tr>
@@ -793,7 +793,7 @@ const ciscoRelevanceV2 = `
             },
             {
                 id: 'video',
-                title: '4.5 — Video Demo Script (10 min)',
+                title: '4.4 — Video Demo & 7-Segment Production Script (10 min)',
                 content: `
                     <div class="space-y-6">
                         <div class="bg-dark-800 rounded-xl p-4 border border-cisco-cyan/30">
@@ -1058,8 +1058,7 @@ const ciscoRelevanceV2 = `
             const ucSec = sectionsV2.find(s => s.id === 'use-cases');
             if (ucSec) ucSec.content = useCasesV2;
 
-            const vidSec = sectionsV2.find(s => s.id === 'video');
-            if (vidSec) vidSec.content = videoV2;
+            // Preserve full 7-segment video demo script and production plan in sectionsV2
 
             const teamSec = sectionsV2.find(s => s.id === 'team-details');
             if (teamSec) {

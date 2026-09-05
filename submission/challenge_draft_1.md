@@ -15,7 +15,7 @@ Partner Company Name:
 KIW Intercloud S.L.
 
 Name of Innovation:
-TellMAX.AI  -  Sovereign Operations Assistant
+TellMAX.AI  -  Autonomous AI Operations Assistant
 
 Geography:
 EMEAR
