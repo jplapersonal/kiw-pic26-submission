@@ -58,17 +58,29 @@
 
 ## 🎬 MODULE 2: CUSTOMER TESTIMONIAL — CAP VERMELL GRAND HOTEL (1:30)
 
-### Segment 3 — Customer Interview (Víctor, IT Director)
+### Segment 3 — Customer Interview (Víctor, IT Director at Cap Vermell)
 **Visual Style:** On-site video recording of Víctor at Cap Vermell Grand Hotel (5-star luxury resort in Mallorca).
 
-**Script (Víctor — Talking Head / In Situ):**
+**Varsha's 6 Core Interview Questions for Víctor:**
 
-**Part 1 — The Problem (Before TellMAX.AI):**
+Part 1 — The Problem (Before TellMAX.AI):
+1. *"Before TellMAX.AI, what did a typical day look like when something went wrong on the network?"*
+2. *"How long did it usually take to figure out what was wrong and fix it?"*
+3. *"What did that delay actually cost you in time, stress, or customer complaints?"*
+
+Part 2 — The Impact (After TellMAX.AI):
+1. *"Can you walk us through a specific incident MAX caught or resolved?"*
+2. *"How much faster is resolution now, roughly?"*
+3. *"Would you trust MAX to run unsupervised — why or why not?"*
+
+**Sample On-Site Spoken Script (Víctor — Talking Head / In Situ):**
+
+Part 1 — The Problem (Before TellMAX.AI):
 > *"Hola, soy Víctor, Director de IT en Cap Vermell Grand Hotel, un resort de gran lujo de 5 estrellas en Mallorca.
 >
 > Antes de contar con TellMAX.AI, cuando surgía una incidencia de red o de climatización en las villas, nuestros técnicos tenían que revisar manualmente múltiples pantallas de Meraki y del sistema de gestión de la edificación. Identificar el origen del problema y enviar a un técnico llevaba entre 30 y 45 minutos, lo que generaba fricción y estrés en la experiencia del huésped."*
 
-**Part 2 — The Impact (After TellMAX.AI):**
+Part 2 — The Impact (After TellMAX.AI):
 > *"Con TellMAX.AI y KIW, la operativa ha cambiado por completo. Ahora, el personal de recepción o mantenimiento puede reportar la incidencia por Webex, WhatsApp o llamando desde el propio teléfono IP de la habitación. MAX diagnostica el puerto de switch o el termostato en tiempo real y ejecuta la corrección en menos de 5 segundos.
 >
 > Ha reducido nuestros tiempos de resolución en más de un 85% y ha incrementado la satisfacción del cliente en un 30%. Es una herramienta indispensable en nuestra operativa diaria."*
